@@ -57,11 +57,12 @@ Run application:
 streamlit run app.py
 
 ## Project Structure
-
+```text
+Loan-Bias-Detector/
 ├── Loan-Dataset/
-│   ├── Loan Dataset.csv   
-│   └── app.py             
-└── README.md     
+│   ├── Loan Dataset.csv      # Dataset file
+│   └── app.py                # Streamlit application
+└── README.md        
 
 ## How It Works
 
