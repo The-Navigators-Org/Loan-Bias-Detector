@@ -62,7 +62,8 @@ Loan-Bias-Detector/
 ├── Loan-Dataset/
 │   ├── Loan Dataset.csv      # Dataset file
 │   └── app.py                # Streamlit application
-└── README.md        
+└── README.md 
+```text       
 
 ## How It Works
 
