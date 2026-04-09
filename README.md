@@ -1,94 +1,118 @@
-# Loan-Bias-Detector
+# Create the README.md file with the provided content
 
-AI-powered system to detect and visualize bias in automated loan approval decisions.
-Built using Streamlit for the Google Solution Challenge under the Responsible AI theme.
+content = """# Loan-Bias-Detector
 
-
-
-## Problem Statement
-
-Automated decision systems in finance may introduce bias based on gender, income, education, or other demographic factors.
-This project detects and visualizes bias in loan approval datasets to ensure fairness.
-
-
-## Features
-
-* Data Cleaning (Missing values, duplicates)
-* Bias Detection across categorical attributes
-* Fairness Score calculation
-* Interactive Visualizations
-* Automatic column selection
-* Numeric data distribution analysis
-* Streamlit Dashboard UI
-
-
-## Tech Stack
-
-* Python
-* Streamlit
-* Pandas
-* NumPy
-* Matplotlib
+AI-powered system to detect and visualize bias in automated loan approval decisions.  
+Built using Streamlit for the Google Solution Challenge under the **Responsible AI** theme.
 
 ---
 
-## Dataset
+## 📌 Problem Statement
+
+Automated decision systems in finance may introduce bias based on gender, income, education, or other demographic factors.  
+This project detects and visualizes bias in loan approval datasets to ensure fairness.
+
+---
+
+## 🚀 Features
+
+- Data Cleaning (missing values, duplicates)
+- Bias Detection across categorical attributes
+- Fairness Score calculation
+- Interactive visualizations
+- Automatic column selection
+- Numeric data distribution analysis
+- Streamlit dashboard UI
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+
+---
+
+## 📊 Dataset
 
 Financial Loan Approval Dataset (from Kaggle)
 
+---
 
-## Installation
+## ⚙️ Installation
 
-Clone repository:
-
+### 1. Clone the repository
+```bash
 git clone https://github.com/The-Navigators-Org/Loan-Bias-Detector.git
+```
 
+### 2. Navigate to project directory
+```bash
+cd Loan-Bias-Detector
+```
 
-Go to project folder:
-
-cd responsible-ai-loan-bias-detector
-
-Install dependencies:
-
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Run application:
-
+### 4. Run the application
+```bash
 streamlit run app.py
+```
 
-## Project Structure
+---
+
+## 📁 Project Structure
+
 ```text
 Loan-Bias-Detector/
 ├── Loan-Dataset/
 │   ├── Loan Dataset.csv      # Dataset file
 │   └── app.py                # Streamlit application
-└── README.md 
-```text       
+└── README.md
+```
 
-## How It Works
+---
 
-1. Load dataset
-2. Clean missing values
-3. Detect categorical columns
-4. Generate bias comparison
-5. Calculate fairness score
-6. Visualize numeric distributions
+## ⚙️ How It Works
 
-## Fairness Score Formula
+1. Load dataset  
+2. Clean missing values  
+3. Detect categorical columns  
+4. Generate bias comparison  
+5. Calculate fairness score  
+6. Visualize numeric distributions  
 
+---
+
+## 📈 Fairness Score Formula
+
+```
 Fairness = 1 - (max approval rate - min approval rate)
+```
 
-Higher score means less bias.
+Higher score indicates **lower bias**.
 
-## Google Solution Challenge Theme
+---
 
-Responsible AI — Ensuring fairness and detecting bias in automated decision systems.
+## 🌍 Google Solution Challenge Theme
 
-## Authors
+**Responsible AI** — Ensuring fairness and detecting bias in automated decision systems.
 
-* Anant Rajput
-* Tanish Gupta
+---
 
-## License
+## 👨‍💻 Authors
+
+- Anant Rajput  
+- Tanish Gupta  
+
+---
+
+## 📄 License
 
 This project is for educational and research purposes.
+"""
