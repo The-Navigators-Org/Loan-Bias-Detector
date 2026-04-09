@@ -57,7 +57,7 @@ Run application:
 streamlit run app.py
 
 ## Project Structure
-.
+
 ├── Loan-Dataset/
 │   ├── Loan Dataset.csv   
 │   └── app.py             
