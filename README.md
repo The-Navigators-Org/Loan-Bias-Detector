@@ -57,11 +57,11 @@ Run application:
 streamlit run app.py
 
 ## Project Structure
-
-├── Loan Dataset/
-|   ├─────────── Loan Dataset.csv
-|   ├─────────── app.py
-└── README.md
+.
+├── Loan-Dataset/
+│   ├── Loan Dataset.csv   
+│   └── app.py             
+└── README.md     
 
 ## How It Works
 
