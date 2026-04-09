@@ -1,6 +1,4 @@
-# Create the README.md file with the provided content
-
-content = """# Loan-Bias-Detector
+# Loan-Bias-Detector
 
 AI-powered system to detect and visualize bias in automated loan approval decisions.  
 Built using Streamlit for the Google Solution Challenge under the **Responsible AI** theme.
