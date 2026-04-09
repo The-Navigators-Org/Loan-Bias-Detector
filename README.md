@@ -58,9 +58,9 @@ streamlit run app.py
 
 ## Project Structure
 
-├── app.py
-├── Loan Dataset.csv
-├── requirements.txt
+├── Loan Dataset/
+|   ├─────────── Loan Dataset.csv
+|   ├─────────── app.py
 └── README.md
 
 ## How It Works
