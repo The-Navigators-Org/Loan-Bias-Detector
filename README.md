@@ -68,9 +68,9 @@ streamlit run app.py
 
 ```text
 Loan-Bias-Detector/
-├── Loan-Dataset/
-│   ├── Loan Dataset.csv      # Dataset file
-│   └── app.py                # Streamlit application
+├── app.py                # Streamlit application
+├── Loan Dataset.csv      # Dataset file
+├── requirements.txt      # Dependencies
 └── README.md
 ```
 
