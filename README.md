@@ -5,14 +5,14 @@ Built using Streamlit for the Google Solution Challenge under the **Responsible 
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Automated decision systems in finance may introduce bias based on gender, income, education, or other demographic factors.  
 This project detects and visualizes bias in loan approval datasets to ensure fairness.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Data Cleaning (missing values, duplicates)
 - Bias Detection across categorical attributes
@@ -24,7 +24,7 @@ This project detects and visualizes bias in loan approval datasets to ensure fai
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Streamlit
@@ -34,13 +34,13 @@ This project detects and visualizes bias in loan approval datasets to ensure fai
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 Financial Loan Approval Dataset (from Kaggle)
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
@@ -64,7 +64,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Loan-Bias-Detector/
@@ -76,7 +76,7 @@ Loan-Bias-Detector/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. Load dataset  
 2. Clean missing values  
@@ -87,7 +87,7 @@ Loan-Bias-Detector/
 
 ---
 
-## 📈 Fairness Score Formula
+##  Fairness Score Formula
 
 ```
 Fairness = 1 - (max approval rate - min approval rate)
@@ -97,20 +97,20 @@ Higher score indicates **lower bias**.
 
 ---
 
-## 🌍 Google Solution Challenge Theme
+##  Google Solution Challenge Theme
 
 **Responsible AI** — Ensuring fairness and detecting bias in automated decision systems.
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 
 - Anant Rajput  
 - Tanish Gupta  
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational and research purposes.
 """
