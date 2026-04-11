@@ -10,13 +10,12 @@ st.header("Loan Approval Bias Detection Dashboard")
 @st.cache_data
 def load_data():
     df = pd.read_csv("Loan Dataset.csv")
-    # ── FIX: Convert columns that look numeric but are stored as strings ──
     for col in df.columns:
         try:
             converted = pd.to_numeric(df[col])
             df[col] = converted
         except (ValueError, TypeError):
-            pass  # keep as string/object
+            pass  
     return df
 
 
@@ -28,7 +27,6 @@ st.dataframe(df.head())
 st.subheader("Missing Values")
 st.write(df.isnull().sum())
 
-# ── Persist df across button clicks with session_state ────────────────────
 if "df" not in st.session_state:
     st.session_state.df = df.copy()
 
@@ -41,7 +39,7 @@ with col1:
 
 with col2:
     if st.button("Fill Missing Values"):
-        st.session_state.df = st.session_state.df.ffill()  # ffill() replaces deprecated method='ffill'
+        st.session_state.df = st.session_state.df.ffill() 
         st.success("Missing values forward-filled.")
 
 with col3:
@@ -59,7 +57,7 @@ df = df.drop_duplicates()
 for col in df.columns:
     if df[col].dtype == "object":
         df[col] = df[col].fillna(df[col].mode()[0])
-    elif pd.api.types.is_numeric_dtype(df[col]):  # only call median() on true numeric cols
+    elif pd.api.types.is_numeric_dtype(df[col]):  
         df[col] = df[col].fillna(df[col].median())
 
 st.write("Rows:", df.shape[0])
